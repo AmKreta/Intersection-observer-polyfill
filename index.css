@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+#root{
+    height:100%;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+#container{
+    position:relative;
+    width: 80%;
+    height: 6000px;
+    background-color: rgb(142, 142, 142);
+    margin:auto;
+}
+
+#observable{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%);
+    height:300px;
+    width:300px;
+    background-color: rgb(163, 204, 240);
+}
